@@ -17,6 +17,7 @@ from src.providers.litellm import ChatLiteLLM
 from src.providers.vllm import ChatVLLM
 from src.providers.nvidia import ChatNvidia
 from src.providers.deepseek import ChatDeepSeek
+from src.providers.cheaper_inference import ChatCheaperInference
 
 __all__ = [
     "BaseChatLLM",
@@ -39,4 +40,5 @@ __all__ = [
     "ChatVLLM",
     "ChatNvidia",
     "ChatDeepSeek",
+    "ChatCheaperInference",
 ]
